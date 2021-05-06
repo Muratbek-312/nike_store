@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="./bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-service">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="product_detail.html">Мужчины</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Женщины</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Дети</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn btn-outline-primary" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_1167,c_limit/20509994-3436-4b88-a295-34936ead0fc7/nike-just-do-it.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_1167,c_limit/2c73d147-67bb-483a-ad61-a5f74bada34b/sitio-web-oficial-de-nike.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_1167,c_limit/64e3fea5-2ec3-47c7-84fa-c3eafcb2c95f/nike-just-do-it.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>    
+    </div>
+  </header>
+
+  <!-- Section -->
+  <section class="info">
+    <div class="container">
+      <div class="info__content">
+        <h2 class="info__content_h2">NIKE AIR ZOOM PEGASUS 38</h2>
+        <p class="info__content_p">Твоя крылатая рабочая лошадка уже здесь — теперь еще удобнее, чем когда-либо.</p>
+        <div class="info__content__btn">
+          <a href="product_detail.html">Для мужчин</a>
+          <a href="">Для женщин</a>
+          <a href="">Для детей</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Section -->
+  <section class="trend">
+    <div class="container">
+      <h3 class="header-service">Сейчас в тренде</h3>
+      <div class="slider">
+      <div class="slider__item">
+          <a href="">
+            <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6583b7a0-0363-4304-a168-8476dd1dd6ab/%D1%85%D1%83%D0%B4%D0%B8-%D1%81-%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%BE%D0%B9-%D0%B4%D0%BB%D1%8F-%D1%81%D0%BA%D0%B5%D0%B9%D1%82%D0%B1%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B3%D0%B0-sb-Qq4cn8.png" alt="">
+            <div class="slider__item__info">
+              <div class="slider__item_name">
+                <h4>Nike SB</h4>
+                <p>Худи с графикой для скейтбординга</p>
+              </div>
+              <p class="slider__item_price"><span>6 199 som</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="">
+            <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b52d8ed7-6073-45c3-b094-8d8da836d490/%D1%84%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D1%85%D1%83%D0%B4%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%81%D0%BA%D0%B5%D0%B9%D1%82%D0%B1%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B3%D0%B0-sb-llMpBq.png" alt="">
+            <div class="slider__item__info">
+              <div class="slider__item_name">
+                <h4>Nike SB</h4>
+                <p>Флисовая худи для скейтбординга</p>
+              </div>
+              <p class="slider__item_price"><span>6 199 som</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="">
+            <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f24b09a5-b3da-4536-8e4b-e3441da18a07/%D0%B7%D0%B8%D0%BC%D0%BD%D1%8F%D1%8F-%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0-%D0%B8%D0%B7-%D1%82%D0%BA%D0%B0%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%82%D1%80%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D0%B0-MBL7rN.png" alt="">
+            <div class="slider__item__info">
+              <div class="slider__item_name">
+                <h4>Nike</h4>
+                <p>Мужская зимняя куртка из тканого материала для тренинга</p>
+              </div>
+              <p class="slider__item_price"><span>8 999 som</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="">
+            <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2bb01400-b216-43b8-ad36-2d41a633557a/%D1%84%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D1%82%D0%B5%D0%BD%D0%BD%D0%B8%D1%81%D0%BD%D0%B0%D1%8F-%D1%85%D1%83%D0%B4%D0%B8-%D1%81-%D0%BE%D0%BA%D1%80%D0%B0%D1%88%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D1%82%D0%B0%D0%B9-%D0%B4%D0%B0%D0%B9-court-htP8mT.png" alt="">
+            <div class="slider__item__info">
+              <div class="slider__item_name">
+                <h4>NikeCourt</h4>
+                <p>Мужская флисовая теннисная худи с окрашиванием тай-дай</p>
+              </div>
+              <p class="slider__item_price"><span>6 999 som</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="slider__item">
+          <a href="">
+            <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a1ed3c0a-62d2-4b87-9ff1-94441b687d85/%D0%BF%D0%BB%D0%B0%D1%82%D1%8C%D0%B5-sportswear-hh1ZL8.png" alt="">
+            <div class="slider__item__info">
+              <div class="slider__item_name">
+                <h4>Nike Sportswear</h4>
+                <p>Платье</p>
+              </div>
+              <p class="slider__item_price"><span>4 380 som</span></p>
+            </div>
+          </a>
+          </div>
+          <div class="slider__item">
+          <a href="">
+            <img data-lazy="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_378,c_limit/c902698e-6365-4a30-89b2-ffcbff6faaf6/%D1%84%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B1%D1%80%D1%8E%D0%BA%D0%B8-sportswear-essential-k62xpw.png" alt="">
+            <div class="slider__item__info">
+              <div class="slider__item_name">
+                <h4>Nike Sportswear Essential</h4>
+                <p>Женские флисовые брюки</p>
+              </div>
+              <p class="slider__item_price"><span>3 999 som</span></p>
+            </div>
+          </a>
+          </div>
+          <div class="slider__item">
+          <a href="">
+            <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ywyxdurdzaa1xk824par/%D1%85%D1%83%D0%B4%D0%B8-%D0%B8%D0%B7-%D1%82%D0%BA%D0%B0%D0%BD%D0%B8-%D1%84%D1%80%D0%B5%D0%BD%D1%87-%D1%82%D0%B5%D1%80%D1%80%D0%B8-%D1%81-%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%BE%D0%B9-sportswear-essential-MpDpPQ.png" alt="">
+            <div class="slider__item__info">
+              <div class="slider__item_name">
+                <h4>Nike Sportswear Essential</h4>
+                <p>Женская худи из ткани френч терри с графикой</p>
+              </div>
+              <p class="slider__item_price"><span>5 290 som</span></p>
+            </div>
+          </a>
+          </div>
+          <div class="slider__item">
+          <a href="">
+            <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d0267d34-61d2-49d5-bd0b-c37f1f0ca48b/%D1%85%D1%83%D0%B4%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%82%D1%80%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D0%B0-icon-clash-mKGJ76.png" alt="">
+            <div class="slider__item__info">
+              <div class="slider__item_name">
+                <h4>Nike Icon Clash</h4>
+                <p>Женская худи для тренинга</p>
+              </div>
+              <p class="slider__item_price"><span>5 299 som</span></p>
+            </div>
+          </a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Section -->
+  <section class="conditions">
+    <div class="container">
+      <h3 class="header-service">В любых условиях</h3>
+      <div class="slider">
+        <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f3e181e3-bba3-4624-8cb3-c28e70e6a47b/%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0-%D0%B8%D0%B7-%D1%82%D0%BA%D0%B0%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0-%D1%81-%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%BE%D0%BC-sportswear-kQqzMB.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike SB</h4>
+                  <p>Худи с графикой для скейтбординга</p>
+                </div>
+                <p class="slider__item_price"><span>6 199 som</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8cb316ad-4aae-4594-b247-2ce78a746f0c/%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D1%82%D1%80%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D0%B0-dri-fit-academy-WhB0tx.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike SB</h4>
+                  <p>Флисовая худи для скейтбординга</p>
+                </div>
+                <p class="slider__item_price"><span>6 199 som</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d7ff1ade-b2f8-42ea-b07e-3316e317d146/%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B5-%D0%B1%D1%80%D0%B0-%D1%81-%D1%86%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC-%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4%D1%8B%D1%88%D0%B5%D0%BC-v-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D0%BC-%D0%B2%D1%8B%D1%80%D0%B5%D0%B7%D0%BE%D0%BC-%D0%B8-%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B9-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%BE%D0%B9-dri-fit-swoosh-icon-clash-XQrtrJ.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike</h4>
+                  <p>Мужская зимняя куртка из тканого материала для тренинга</p>
+                </div>
+                <p class="slider__item_price"><span>8 999 som</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ace8fc0f-0d97-4481-93ae-23e996a94cc6/%D1%80%D1%83%D0%B1%D0%B0%D1%88%D0%BA%D0%B0-%D0%BF%D0%BE%D0%BB%D0%BE-%D1%81-%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%BE%D0%BC-the-polo-jDBSZ2.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>NikeCourt</h4>
+                  <p>Мужская флисовая теннисная худи с окрашиванием тай-дай</p>
+                </div>
+                <p class="slider__item_price"><span>6 999 som</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7fd4f013-92f8-44d2-8a1f-6efc7867bee5/%D0%B1%D0%B5%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0-%D0%B8%D0%B7-%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D0%BB%D0%BE%D1%82%D0%BD%D0%B0-run-division-rZ7f3j.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike Sportswear</h4>
+                  <p>Платье</p>
+                </div>
+                <p class="slider__item_price"><span>4 380 som</span></p>
+              </div>
+            </a>
+            </div>
+            <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b155bd39-38fe-4b1f-8d3c-27d3f8c320f7/%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%B2%D0%B8%D1%82%D1%88%D0%BE%D1%82-sportswear-t4zPpb.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike Sportswear Essential</h4>
+                  <p>Женские флисовые брюки</p>
+                </div>
+                <p class="slider__item_price"><span>3 999 som</span></p>
+              </div>
+            </a>
+            </div>
+            <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3b3bd4da-b21e-4719-9e34-59526eee40c8/%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0-%D1%81-%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC-%D1%81%D1%82%D0%BE%D0%B9%D0%BA%D0%BE%D0%B9-%D0%B8-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%8B%D0%BC-%D1%80%D1%83%D0%BA%D0%B0%D0%B2%D0%BE%D0%BC-sportswear-8XvkK6.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike Sportswear Essential</h4>
+                  <p>Женская худи из ткани френч терри с графикой</p>
+                </div>
+                <p class="slider__item_price"><span>5 290 som</span></p>
+              </div>
+            </a>
+            </div>
+            <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9914a72e-b0b0-4467-a02f-44644a4aa973/%D1%84%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D1%85%D1%83%D0%B4%D0%B8-paris-saint-germain-QXbMXq.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike Icon Clash</h4>
+                  <p>Женская худи для тренинга</p>
+                </div>
+                <p class="slider__item_price"><span>5 299 som</span></p>
+              </div>
+            </a>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <!-- Section -->
+  <section class="recommended">
+    <div class="container">
+      <h3 class="header-service">Рекомендованное</h3>
+      <div class="slider">
+        <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f82e59ef-8fcb-49ff-9de5-e2c1697a5442/%D1%83%D0%BA%D0%BE%D1%80%D0%BE%D1%87%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0-%D0%B8%D0%B7-%D1%82%D0%BA%D0%B0%D0%BD%D0%B8-%D1%88%D0%BE%D1%82%D0%BB%D0%B0%D0%BD%D0%B4%D0%BA%D0%B0-yoga-CXxCnM.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike SB</h4>
+                  <p>Худи с графикой для скейтбординга</p>
+                </div>
+                <p class="slider__item_price"><span>6 199 som</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a0bc6778-36e7-402a-bb2c-5359ea72517e/%D0%B1%D0%B5%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0-%D1%81-%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%BE%D0%BC-air-Ts5Gd0.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike SB</h4>
+                  <p>Флисовая худи для скейтбординга</p>
+                </div>
+                <p class="slider__item_price"><span>6 199 som</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5d8be592-6e28-41f5-8846-9a0812b6ab03/%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0-%D1%81-%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B8%D0%BC-%D1%80%D1%83%D0%BA%D0%B0%D0%B2%D0%BE%D0%BC-sportswear-essential-qGBzHg.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike</h4>
+                  <p>Мужская зимняя куртка из тканого материала для тренинга</p>
+                </div>
+                <p class="slider__item_price"><span>8 999 som</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b9aec3e2-3c05-42e4-ad1a-a414902c5fdc/%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0-sportswear-wdvdZF.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>NikeCourt</h4>
+                  <p>Мужская флисовая теннисная худи с окрашиванием тай-дай</p>
+                </div>
+                <p class="slider__item_price"><span>6 999 som</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9c95adb1-ef0c-49a6-a5d6-b7fb39f243eb/%D0%BF%D0%BB%D0%B0%D1%82%D1%8C%D0%B5-sportswear-v3x3FP.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike Sportswear</h4>
+                  <p>Платье</p>
+                </div>
+                <p class="slider__item_price"><span>4 380 som</span></p>
+              </div>
+            </a>
+            </div>
+            <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/260b3338-ffc5-4cc0-8120-d542152f63f4/%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%82%D1%80%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D0%B0-%D1%81-%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%BC%D0%B8-%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D0%B0%D0%BC%D0%B8-dri-fit-SRpdHf.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike Sportswear Essential</h4>
+                  <p>Женские флисовые брюки</p>
+                </div>
+                <p class="slider__item_price"><span>3 999 som</span></p>
+              </div>
+            </a>
+            </div>
+            <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e232804e-afd7-43f6-953c-dd5917f173c8/%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0-sportswear-icon-clash-T1DmJS.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike Sportswear Essential</h4>
+                  <p>Женская худи из ткани френч терри с графикой</p>
+                </div>
+                <p class="slider__item_price"><span>5 290 som</span></p>
+              </div>
+            </a>
+            </div>
+            <div class="slider__item">
+            <a href="">
+              <img data-lazy="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6ab6ec95-e258-4d0b-afad-611c7851ed23/%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0-sportswear-XNnRmW.png" alt="">
+              <div class="slider__item__info">
+                <div class="slider__item_name">
+                  <h4>Nike Icon Clash</h4>
+                  <p>Женская худи для тренинга</p>
+                </div>
+                <p class="slider__item_price"><span>5 299 som</span></p>
+              </div>
+            </a>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="footer__left">
+        <p class="footer__color">© Nike, Inc., 2021. Все права защищены.</p>
+      </div>
+      <div class="footer__right">
+        <a class="footer__color" href="">Каталог</a>
+        <a class="footer__color" href="">Условия использования</a>
+        <a class="footer__color" href="">Условия продажи</a>
+        <a class="footer__color" href="">О компании</a>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="./bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
